@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="550" viewBox="0 0 1120 550">
+<rect width="1120" height="550" rx="18" fill="#101821"/>
+<text x="46" y="57" fill="#f4f7fb" font-family="Arial,sans-serif" font-size="29" font-weight="bold">OI Biochip v4 — conceptual simulation architecture</text>
+<text x="46" y="89" fill="#a6bed3" font-family="Arial,sans-serif" font-size="16">Software components and feedback loop · not a biological circuit diagram</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#93a5b9" stroke-width="1.5"/></marker></defs>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="45" y="154" width="222" height="103" rx="13" fill="#1c3444" stroke="#3b7b9a"/><text x="156" y="190" fill="#e5f5fa" font-size="20" font-weight="bold">A/B stimuli</text><text x="156" y="216" fill="#a4c7d5" font-size="14">Spatial current input</text><text x="156" y="238" fill="#a4c7d5" font-size="13">Jittered per trial</text>
+<rect x="340" y="150" width="430" height="236" rx="16" fill="#172e35" stroke="#36a5a5" stroke-width="2"/><text x="555" y="183" fill="#e8f8f3" font-size="21" font-weight="bold">3D neural culture (simulated)</text>
+<rect x="360" y="203" width="185" height="73" rx="10" fill="#25434c" stroke="#4c91aa"/><text x="452" y="233" fill="#f0f5f8" font-size="16">RS / FS neurons</text><text x="452" y="254" fill="#adcbda" font-size="13">Pospischil models</text>
+<rect x="564" y="203" width="184" height="73" rx="10" fill="#25434c" stroke="#4c91aa"/><text x="656" y="233" fill="#f0f5f8" font-size="16">Synapses</text><text x="656" y="254" fill="#adcbda" font-size="13">AMPA / NMDA / GABA-A</text>
+<rect x="360" y="290" width="388" height="64" rx="10" fill="#213b39" stroke="#4c9c8c"/><text x="554" y="316" fill="#eff8f5" font-size="16">Modeled extracellular environment</text><text x="554" y="339" fill="#b0ccc7" font-size="13">Temperature · Mg²⁺ · viscosity · K⁺</text>
+<rect x="846" y="154" width="225" height="103" rx="13" fill="#253448" stroke="#667fa9"/><text x="958" y="192" fill="#f4f6ff" font-size="20" font-weight="bold">HD-MEA</text><text x="958" y="218" fill="#b9cae2" font-size="14">20 × 20 electrodes</text><text x="958" y="240" fill="#b9cae2" font-size="13">Simulated readout</text>
+<rect x="835" y="408" width="240" height="83" rx="13" fill="#3b3024" stroke="#b9894c"/><text x="955" y="442" fill="#fef0d8" font-size="18" font-weight="bold">Decision &amp; reward</text><text x="955" y="465" fill="#dac2a0" font-size="14">R-STDP / eligibility traces</text>
+<rect x="333" y="424" width="444" height="56" rx="11" fill="#202d3c" stroke="#667d9b"/><text x="555" y="447" fill="#ecf1fa" font-size="17">Plasticity &amp; homeostatic scaling</text><text x="555" y="466" fill="#a8bad3" font-size="13">Synaptic weight updates in v4</text>
+</g>
+<g fill="none" stroke="#93a5b9" stroke-width="2.5" marker-end="url(#a)"><path d="M267 206H334"/><path d="M770 206H840"/><path d="M957 257V401"/><path d="M834 450H782"/><path d="M554 424V394"/></g>
+<text x="46" y="529" fill="#8da2b6" font-family="Arial,sans-serif" font-size="13">Legacy Pong v3 is a separate engine; structural-plasticity results in the report refer to later v4.1 experiments.</text>
+</svg>

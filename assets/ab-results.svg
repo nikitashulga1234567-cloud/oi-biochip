@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530">
+<rect width="1000" height="530" rx="18" fill="#101821"/>
+<text x="60" y="63" fill="#f4f7fb" font-size="30" font-family="Arial,sans-serif" font-weight="bold">A/B stimulus classification</text>
+<text x="60" y="95" fill="#a8bbcc" font-size="16" font-family="Arial,sans-serif">Historical results from the research report • held-out accuracy (%)</text>
+<g font-family="Arial,sans-serif" font-size="17" fill="#e2eaf4">
+<text x="60" y="173">Chance baseline (reference)</text>
+<text x="60" y="252">Early series (seeds 1–4)</text>
+<text x="60" y="331">Later baseline (seeds 5–8)</text>
+<text x="60" y="410">Later structural (seeds 5–8)</text>
+</g>
+<g stroke="#253647" stroke-width="1"><line x1="430" y1="125" x2="430" y2="440"/><line x1="550" y1="125" x2="550" y2="440"/><line x1="670" y1="125" x2="670" y2="440"/><line x1="790" y1="125" x2="790" y2="440"/><line x1="910" y1="125" x2="910" y2="440"/></g>
+<g font-family="Arial,sans-serif" font-size="13" fill="#92abc1"><text x="423" y="460">0</text><text x="540" y="460">25</text><text x="659" y="460">50</text><text x="779" y="460">75</text><text x="896" y="460">100</text></g>
+<rect x="430" y="150" width="240" height="28" rx="5" fill="#596678"/><rect x="430" y="229" width="313.9" height="28" rx="5" fill="#5786bb"/><rect x="430" y="308" width="376.8" height="28" rx="5" fill="#36a5a5"/><rect x="430" y="387" width="403.68" height="28" rx="5" fill="#69c1a2"/>
+<g font-family="Arial,sans-serif" font-size="18" fill="#f4f7fb" font-weight="bold"><text x="680" y="171">50.0%</text><text x="754" y="250">65.4%</text><text x="817" y="329">78.5%</text><text x="844" y="408">84.1%</text></g>
+<text x="60" y="496" fill="#ddab71" font-family="Arial,sans-serif" font-size="15">Later difference: +5.6 percentage points; NOT statistically significant (p = 0.375).</text>
+<text x="60" y="516" fill="#8da2b6" font-family="Arial,sans-serif" font-size="12">Different seed cohorts; v4.1 structural results are not reproducible from this v4 source snapshot.</text>
+</svg>
